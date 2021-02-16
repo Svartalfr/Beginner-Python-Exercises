@@ -14,7 +14,7 @@ try:
     else:
         print("Invalid operator")
 except ZeroDivisionError:
-    print("Sıfıra bölünemez")
+    print("Cannot be divided by 0")
 
     a = int(input())
 b = int(input())
